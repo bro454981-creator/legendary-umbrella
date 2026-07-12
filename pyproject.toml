@@ -1,0 +1,13 @@
+[project]
+name = "212-live"
+version = "2.0.0"
+description = "212 LIVE - TikTok Stream Panel"
+requires-python = ">=3.12"
+dependencies = [
+    "flask>=3.0.0",
+    "flask-cors>=4.0.0",
+    "requests>=2.31.0",
+]
+
+[tool.vercel]
+entrypoint = "api.index:app"
